@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TITLE</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+  <link rel='stylesheet' href='assets/css/demo.css'>
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+<div class="site">
+  <div class="site-loader _multi-circle-line">
+    <div class="site-loader-spinner"></div>
+  </div> <!-- .site-loader -->
+
+  <div class="site-bg">
+    <div class="site-bg-img"></div>
+    <div class="site-bg-video">
+      <video id="bgVideo" autoplay="" loop="">
+        <source src="assets/video/video.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="site-bg-overlay"></div>
+    <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+    <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+    <div class="site-bg-border"></div>
+  </div> <!-- .site-bg -->
+
+  <div class="site-canvas">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-header">
+          <div class="site-header-brand">
+            <a href="#">
+              <img class="site-header-logo" src="assets/img/site-header-logo.png" alt="">
+              <img class="site-header-logo-invert" src="assets/img/site-header-logo-invert.png" alt="">
+            </a>
+          </div>
+          <a class="primary-nav-toggle" href="#">
+            <i class="fa fa-navicon"></i>
+          </a>
+        </div>
+        <div class="site-header-main">
+          <nav class="primary-nav">
+            <div class="primary-menu-container">
+              <ul class="primary-menu">
+                <li class="primary-menu-item is-active" data-section="#home">
+                  <a href="#" data-hover="Home"><span>Home</span></a> <!-- set `data-hover` same as the link text -->
+                </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                <li class="primary-menu-item" data-section="#about">
+                  <a href="#" data-hover="About"><span>About</span></a>
+                </li>
+                <li class="primary-menu-item" data-section="#service">
+                  <a href="#" data-hover="Service"><span>Service</span></a>
+                </li>
+                <li class="primary-menu-item" data-section="#contact">
+                  <a href="#" data-hover="Contact"><span>Contact</span></a>
+                </li>
+                <li class="primary-menu-item" data-section="#social">
+                  <a href="#"><i class="fa fa-share-alt"></i></a>
+                </li>
+                <li class="primary-menu-item audio-toggle">
+                  <a href="#"><i class="fa fa-volume-up"></i></a>
+                </li> <!-- .audio-toggle -->
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header> <!-- .site-header -->
+    <main class="site-main">
+      <div id="nav" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="col-xs-12">
+                <div class="col-inner">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- for `> md` screen, control with `#nav` id -->
+
+      <div id="social" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="col-xs-12">
+                <div class="col-inner">
+                  <div class="social-menu-container">
+                    <ul class="social-menu">
+                      <li class="social-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                          <i class="fa fa-facebook-square"></i>
+                          <span>Facebook</span>
+                        </a> <!-- social link -->
+                      </li>
+                      <li class="social-item">
+                        <a href="https://twitter.com/" target="_blank">
+                          <i class="fa fa-twitter-square"></i>
+                          <span>Twitter</span>
+                        </a>
+                      </li>
+                      <div class="hidden-md hidden-lg"></div>
+                      <li class="social-item">
+                        <a href="https://plus.google.com/" target="_blank">
+                          <i class="fa fa-google-plus-square"></i>
+                          <span>Google</span>
+                        </a>
+                      </li>
+                      <li class="social-item">
+                        <a href="https://www.youtube.com/" target="_blank">
+                          <i class="fa fa-youtube-square"></i>
+                          <span>Youtube</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #social -->
+
+      <div id="home" class="section is-active">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="col-xs-12">
+                <div class="col-inner">
+                  <div id="countdown_dashboard" class="countdown">
+                    <div class="dash-primary">
+                      <div class="dash days_dash">
+                        <div class="digit">0</div> <!-- remove this line for double figures -->
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                        <span class="dash_title">DAYs</span>
+                      </div>
+                    </div>
+                    <div class="dash-secondary">
+                      <div class="dash hours_dash">
+                        <span class="dash_title">Hours</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                      </div>
+
+                      <div class="dash minutes_dash">
+                        <span class="dash_title">Minutes</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                      </div>
+
+                      <div class="dash seconds_dash">
+                        <span class="dash_title">Seconds</span>
+                        <div class="digit">0</div>
+                        <div class="digit">0</div>
+                      </div>
+                    </div>
+                  </div> <!-- .countdown -->
+                  <p>
+                    We are currently working on a new website. Stay tuned for more information.
+                    <br>
+                    Subscribe to our newsletter to stay updated on our progress.
+                  </p>
+                  <form id="subscribeForm">
+                    <div class="subscribe-wrap">
+                      <a id="subscribeBtn" class="btn btn-default btn-subscribe">
+                        <i class="fa fa-bell-o animated infinite swing"></i> <!-- bell animation class `animated infinite swing` -->
+                        <span>Notify Me</span>
+                      </a>
+                      <input id="subscribeEmail" class="form-control" type="email" name="email" placeholder="Your Email Address">
+                      <button id="subscribeSubmit" class="btn" type="submit"><i class="fa fa-envelope-o"></i></button>
+                    </div>
+                    <div class="form-notify"></div>
+                  </form> <!-- #subscribeForm -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">Who We Are?</h2>
+                      <p class="section-subtitle">Marketing • Design • Multipurpose</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="col-inner">
+                    <p><span class="first-letter">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequat et. Aenean rutrum dui in turpis feugiat, at facilisis dui laoreet. Nunc vestibulum nisi in dolor suscipit consectetur.</p>
+                    <p>Morbi pulvinar, magna vel sollicitudin porttitor, nulla nulla semper turpis, quis egestas nisl enim id ex. Nam eleifend mauris sit amet sem facilisis.</p>
+                    <a class="btn btn-default hidden-xs hidden-sm" href="#" data-section="#service">
+                      <span>Our Service</span>
+                    </a> <!-- button link to section, edit the `data-section` to be section id -->
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                  <div class="col-inner">
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-strategy"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Experienced Team</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                      </div>
+                    </div> <!-- .iconbox -->
+
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-tools"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Talented Designers</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                      </div>
+                    </div> <!-- .iconbox -->
+                    <a class="btn btn-default hidden-md hidden-lg" href="#" data-section="#service">
+                      <span>Our Service</span>
+                    </a> <!-- button link to section, edit the `data-section` to be section id -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="service" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">What We Do?</h2>
+                      <p class="section-subtitle">Marketing • Design • Multipurpose</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div id="serviceCarousel" class="owl-carousel">
+                      <div class="service-carousel-item iconbox _center">
+                        <div class="iconbox-icon">
+                          <i class="icon-mobile"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Responsive Design</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="service-carousel-item iconbox _center">
+                        <div class="iconbox-icon">
+                          <i class="icon-beaker"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Cool Effect</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="service-carousel-item iconbox _center">
+                        <div class="iconbox-icon">
+                          <i class="icon-chat"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Fast Support</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="service-carousel-item iconbox _center">
+                        <div class="iconbox-icon">
+                          <i class="icon-gears"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Easy To Use</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="service-carousel-item iconbox _center">
+                        <div class="iconbox-icon">
+                          <i class="icon-video"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Video Background</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+                        </div>
+                      </div> <!-- .iconbox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #service -->
+
+      <div id="contact" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">Get In Touch</h2>
+                      <p class="section-subtitle">Marketing • Design • Multipurpose</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-5 m-t-30-sm-max">
+                  <div class="col-inner">
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-tablet"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Phone Number</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>
+                          (00) 123-4567890 (tel-1)
+                          <br>
+                          (00) 123-4567890 (tel-2)
+                        </p>
+                      </div>
+                    </div> <!-- .iconbox -->
+
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-pencil"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Email Address</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>
+                          email_1@example.com
+                          <br>
+                          email_2@example.com
+                        </p>
+                      </div>
+                    </div> <!-- .iconbox -->
+
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-map-pin"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Business address</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>
+                          631 Main Street Cottage,
+                          <br>
+                          Long Branch, P.O Box 55016
+                        </p>
+                      </div>
+                    </div> <!-- .iconbox -->
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                  <div class="col-inner">
+                    <form class="_outline" id="contactForm" novalidate="novalidate">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group required">
+                            <label class="form-label" for="contactName">Your name</label>
+                            <input class="form-control" id="contactName" type="text" name="name">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group required">
+                            <label class="form-label" for="contactEmail">Email address</label>
+                            <input class="form-control" id="contactEmail" type="text" name="email">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group required">
+                        <label class="form-label" for="contactMessage">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+                      </div>
+                      <div class="btn-wrap">
+                        <button type="submit" class="btn btn-default btn-block">Send Message</button>
+                      </div>
+                      <div class="form-notify">Drop us a line to say hello :)</div>
+                    </form> <!-- contactForm -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main> <!-- .site-main -->
+  </div>
+</div>
+
+<script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+<script src='assets/js/vendor/bootstrap.min.js'></script>
+<script src='assets/js/vendor/plugin.js'></script>
+<script src='assets/js/variable.js'></script>
+<script src='assets/js/main.js'></script>
+<script src='assets/js/demo.js'></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+-->
+
+</body>
+</html>
