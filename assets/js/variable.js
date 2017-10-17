@@ -49,7 +49,7 @@ var _parallax_star_opacity =                      1; // [0.1 to 1] - parallax st
 //
 
 // for desktop
-var _bg_style_desktop =                           8;
+var _bg_style_desktop =                           9;
                                                     // 0 = flat color
                                                     // 1 = image
                                                     // 2 = image (mp3 audio)
