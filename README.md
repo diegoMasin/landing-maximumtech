@@ -1,2 +1,2 @@
-# maximumtech
-Landing Page Maximum Tech
+# Maximum Teech
+Landing Page da Maximum Tech
