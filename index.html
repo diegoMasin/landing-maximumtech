@@ -32,6 +32,13 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<script>!function(d,s,id){
+    var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+    if(!d.getElementById(id)){js=d.createElement(s);
+    js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+
 <div class="site">
   <div class="site-loader _multi-circle-line">
     <div class="site-loader-spinner"></div>
@@ -112,7 +119,6 @@
                   <div class="social-menu-container">
                     <ul class="social-menu">
                       <li class="social-item">
-
                         <div data-href="https://www.maximumtech.com.br" data-layout="button" data-size="small" data-mobile-iframe="true">
                           <a class="fb-xfbml-parse-ignore" target="_blank"
                              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.maximumtech.com.br%2F&amp;src=sdkpreparse">
@@ -120,27 +126,16 @@
                             <span>Facebook</span>
                           </a>
                         </div>
-
                       </li>
+
                       <li class="social-item">
-                        <a href="https://twitter.com/" target="_blank">
+                        <a target="_blank" href="https://twitter.com/share" data-url="http://www.maximumtech.com.br"
+                           data-text="Quer um Sistema? Visite a Maximum Tech!" data-hashtags="maximumtech">
                           <i class="fa fa-twitter-square"></i>
                           <span>Twitter</span>
                         </a>
                       </li>
-                      <div class="hidden-md hidden-lg"></div>
-                      <li class="social-item">
-                        <a href="https://plus.google.com/" target="_blank">
-                          <i class="fa fa-google-plus-square"></i>
-                          <span>Google</span>
-                        </a>
-                      </li>
-                      <li class="social-item">
-                        <a href="https://www.youtube.com/" target="_blank">
-                          <i class="fa fa-youtube-square"></i>
-                          <span>Youtube</span>
-                        </a>
-                      </li>
+
                     </ul>
                   </div>
                 </div>
