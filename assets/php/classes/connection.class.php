@@ -1,7 +1,16 @@
 <?php
 
-class Connection extends PDO
-{
+class Connection extends PDO {
+
+//              CONFIGURAÇÃO DE PRODUÇÃO
+//    private $host   = "localhost";
+//    private $port   = 5432;
+//    private $dbname = "postgres";
+//    private $user   = "postgres";
+//    private $pass   = "postgres";
+
+
+//              COMENTAR EM PRODUÇÃO
     private $host   = "localhost";
     private $port   = 5432;
     private $dbname = "postgres";
