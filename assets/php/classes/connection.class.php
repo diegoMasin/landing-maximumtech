@@ -2,17 +2,22 @@
 
 class Connection extends PDO
 {
-    private $host   = "localhost";
-    private $port   = 5432;
-    private $dbname = "postgres";
-    private $user   = "postgres";
-    private $pass   = "postgres";
+    private $host;
+    private $port;
+    private $dbname;
+    private $user;
+    private $pass;
+    static $db;
+    private $ini;
 
     public function __construct()
     {
+        $this->readIniConfig();
+        $this->setAtributesConnection();
+
         try
         {
-            $db = parent::__construct(
+            $pdo = new PDO(
                 "pgsql:host={$this->host};port={$this->port};dbname={$this->dbname};",
                 "{$this->user}",
                 "{$this->pass}",
@@ -20,17 +25,48 @@ class Connection extends PDO
                     PDO::ATTR_PERSISTENT => true
                 )
             );
-            return $db;
+
+            $this->db = $pdo;
         } catch (PDOException $e) {
             print "Falha na conexão!";
         }
     }
 
-    public function getNextId($db, $table, $column)
+    private function setAtributesConnection()
+    {
+        $ini = $this->ini;
+        $server = $ini['CONFIG']['server'];
+        
+        $this->host   = $ini[$server]['host'];
+        $this->port   = $ini[$server]['port'];
+        $this->dbname = $ini[$server]['dbname'];
+        $this->user   = $ini[$server]['user'];
+        $this->pass   = $ini[$server]['pass'];
+    }
+
+    private function readIniConfig()
+    {
+        $path = ROOT_DIR . "config.ini";
+
+        try {
+            if (file_exists($path) === false)
+            {
+                throw new Exception();
+            }
+
+            $parse = parse_ini_file($path, true);
+
+            $this->ini = $parse;
+        } catch (Exception $e) {
+            print "Erro ao acessar o arquivo de configuração!";
+        }
+    }
+
+    public function getNextId($table, $column)
     {
         try
         {
-            $stmt = $db->query("SELECT MAX({$column}) AS nextid FROM {$table}", PDO::FETCH_ASSOC);
+            $stmt = $this->db->query("SELECT MAX({$column}) AS nextid FROM {$table}", PDO::FETCH_ASSOC);
             $row = $stmt->fetch();
             return $row['nextid'] + 1;
         } catch (PDOException $e) {
