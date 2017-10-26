@@ -1,5 +1,5 @@
 //
-// config file
+// classes file
 // --------------------------------------------------
 //
 // customize the template function via this file.
