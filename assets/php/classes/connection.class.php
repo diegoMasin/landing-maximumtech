@@ -1,6 +1,6 @@
 <?php
 
-class Connection extends PDO
+class Connection
 {
     private $host;
     private $port;
@@ -12,12 +12,13 @@ class Connection extends PDO
 
     public function __construct()
     {
+        $pdo = NULL;
         $this->readIniConfig();
         $this->setAtributesConnection();
 
         try
         {
-            $pdo = parent::__construct(
+            $pdo = new PDO(
                 "pgsql:host={$this->host};port={$this->port};dbname={$this->dbname};",
                 "{$this->user}",
                 "{$this->pass}",
@@ -29,7 +30,6 @@ class Connection extends PDO
             $this->db = $pdo;
         } catch (PDOException $e) {
             print "Falha na conexão!";
-            print $e->getMessage();
         }
     }
 
