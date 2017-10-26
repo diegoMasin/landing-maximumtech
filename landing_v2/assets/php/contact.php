@@ -7,9 +7,9 @@
 // --------------------------------------------------
 // follow the commend to edit :)
 //
-  $email = 'YOUR_EMAIL_ADDRESS'; // Your email address
-  $name = 'YOUR_NAME'; // Your name
-  $subject = 'Website Contact Message'; // Subject line
+  $email = 'diegoifce@gmail.com'; // Your email address
+  $name = 'Diego Masin'; // Your name
+  $subject = 'Formulário de Contato da Maximum Tech'; // Subject line
   $body = '
   <html>
     <head>
