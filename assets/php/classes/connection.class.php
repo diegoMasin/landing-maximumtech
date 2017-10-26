@@ -17,7 +17,7 @@ class Connection extends PDO
 
         try
         {
-            $pdo = new PDO(
+            $pdo = parent::__construct(
                 "pgsql:host={$this->host};port={$this->port};dbname={$this->dbname};",
                 "{$this->user}",
                 "{$this->pass}",
@@ -29,6 +29,7 @@ class Connection extends PDO
             $this->db = $pdo;
         } catch (PDOException $e) {
             print "Falha na conexão!";
+            print $e->getMessage();
         }
     }
 
