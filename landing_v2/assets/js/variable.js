@@ -27,7 +27,7 @@ var _countdown_utc =                              false; // [true, false] - utc 
 //
 // background effect (cloud / star)
 // --------------------------------------------------
-var _site_bg_effect =                             0; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
+var _site_bg_effect =                             2; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
 var _side_bg_effect_parallax =                    false; // [true, false] - enable parallax effect on above effect, its force disable on mobile, and not work with outdated browser
 
 // if _bg_effect == 1 (cloud)
