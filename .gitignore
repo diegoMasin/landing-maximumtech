@@ -105,4 +105,4 @@ ENV/
 .idea/*
 
 #protegendo configuração do banco
-config.ini
+*.ini
