@@ -30,11 +30,11 @@
 
   // mailchimp api key, for more info visit http://admin.mailchimp.com/account/api/
 
-  define('MC_API_KEY', 'YOUR_MAILCHIMP_API_KEY'); // example: define('MC_API_KEY', '96f10bc8458cf6f4fa51c3cac045cd3d-us17');
+  define('MC_API_KEY', '96f10bc8458cf6f4fa51c3cac045cd3d-us17'); // example: define('MC_API_KEY', '96f10bc8458cf6f4fa51c3cac045cd3d-us17');
 
   // mailchimp list id, for more info visit http://admin.mailchimp.com/lists/
 
-  define('MC_LIST_ID', 'YOUR_MAILCHIMP_LIST_ID'); // example: define('MC_LIST_ID', 'c55a73208d');
+  define('MC_LIST_ID', 'c55a73208d'); // example: define('MC_LIST_ID', 'c55a73208d');
 
 
 
