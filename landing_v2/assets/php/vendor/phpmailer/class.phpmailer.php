@@ -230,7 +230,7 @@ class PHPMailer
      * @type integer
      * @TODO Why is this needed when the SMTP class takes care of it?
      */
-    public $Port = 587;
+    public $Port = 25;
 
     /**
      * The SMTP HELO of the message.
@@ -245,7 +245,7 @@ class PHPMailer
      * Options: '', 'ssl' or 'tls'
      * @type string
      */
-    public $SMTPSecure = 'tls';
+    public $SMTPSecure = 'ssl';
 
     /**
      * Whether to enable TLS encryption automatically if a server supports it,
@@ -253,7 +253,7 @@ class PHPMailer
      * Be aware that in PHP >= 5.6 this requires that the server's certificates are valid.
      * @type boolean
      */
-    public $SMTPAutoTLS = true;
+    public $SMTPAutoTLS = false;
 
     /**
      * Whether to use SMTP authentication.
