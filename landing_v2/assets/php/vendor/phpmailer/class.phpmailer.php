@@ -160,7 +160,7 @@ class PHPMailer
      * Options: "mail", "sendmail", or "smtp".
      * @type string
      */
-    public $Mailer = 'mail';
+    public $Mailer = 'smtp';
 
     /**
      * The path to the sendmail program.
@@ -223,14 +223,14 @@ class PHPMailer
      * Hosts will be tried in order.
      * @type string
      */
-    public $Host = 'localhost';
+    public $Host = 'smtp.live.com';
 
     /**
      * The default SMTP server port.
      * @type integer
      * @TODO Why is this needed when the SMTP class takes care of it?
      */
-    public $Port = 25;
+    public $Port = 587;
 
     /**
      * The SMTP HELO of the message.
@@ -245,7 +245,7 @@ class PHPMailer
      * Options: '', 'ssl' or 'tls'
      * @type string
      */
-    public $SMTPSecure = '';
+    public $SMTPSecure = 'tls';
 
     /**
      * Whether to enable TLS encryption automatically if a server supports it,
@@ -274,13 +274,13 @@ class PHPMailer
      * SMTP username.
      * @type string
      */
-    public $Username = '';
+    public $Username = 'saullo_vianna@hotmail.com';
 
     /**
      * SMTP password.
      * @type string
      */
-    public $Password = '';
+    public $Password = '$4ul028051987';
 
     /**
      * SMTP auth type.
