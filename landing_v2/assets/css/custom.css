@@ -1,0 +1,13 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+.site-bg-overlay {
+  background: url("../img/site-background-image.jpg") no-repeat;
+  background-size: 100% 100%;
+}
