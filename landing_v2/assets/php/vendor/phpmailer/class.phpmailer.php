@@ -70,20 +70,20 @@ class PHPMailer
      * The From email address for the message.
      * @type string
      */
-    public $From = 'contato@maximumtech.com.br';
+    public $From = 'root@localhost';
 
     /**
      * The From name of the message.
      * @type string
      */
-    public $FromName = 'Contato Maximum Tech';
+    public $FromName = 'Root User';
 
     /**
      * The Sender email (Return-Path) of the message.
      * If not empty, will be sent via -f to sendmail or as 'MAIL FROM' in smtp mode.
      * @type string
      */
-    public $Sender = 'MAIL FROM';
+    public $Sender = '';
 
     /**
      * The Return-Path of the message.
@@ -160,7 +160,7 @@ class PHPMailer
      * Options: "mail", "sendmail", or "smtp".
      * @type string
      */
-    public $Mailer = 'smtp';
+    public $Mailer = 'mail';
 
     /**
      * The path to the sendmail program.
@@ -223,14 +223,14 @@ class PHPMailer
      * Hosts will be tried in order.
      * @type string
      */
-    public $Host = 'smtp.zoho.com';
+    public $Host = 'localhost';
 
     /**
      * The default SMTP server port.
      * @type integer
      * @TODO Why is this needed when the SMTP class takes care of it?
      */
-    public $Port = 465;
+    public $Port = 25;
 
     /**
      * The SMTP HELO of the message.
@@ -245,7 +245,7 @@ class PHPMailer
      * Options: '', 'ssl' or 'tls'
      * @type string
      */
-    public $SMTPSecure = 'ssl';
+    public $SMTPSecure = '';
 
     /**
      * Whether to enable TLS encryption automatically if a server supports it,
@@ -253,7 +253,7 @@ class PHPMailer
      * Be aware that in PHP >= 5.6 this requires that the server's certificates are valid.
      * @type boolean
      */
-    public $SMTPAutoTLS = false;
+    public $SMTPAutoTLS = true;
 
     /**
      * Whether to use SMTP authentication.
@@ -262,7 +262,7 @@ class PHPMailer
      * @see PHPMailer::$Username
      * @see PHPMailer::$Password
      */
-    public $SMTPAuth = true;
+    public $SMTPAuth = false;
 
     /**
      * Options array passed to stream_context_create when connecting via SMTP.
@@ -274,13 +274,13 @@ class PHPMailer
      * SMTP username.
      * @type string
      */
-    public $Username = 'contato@maximumtech.com.br';
+    public $Username = '';
 
     /**
      * SMTP password.
      * @type string
      */
-    public $Password = 'trizayferetrigan';
+    public $Password = '';
 
     /**
      * SMTP auth type.

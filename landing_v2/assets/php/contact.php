@@ -8,7 +8,7 @@
 // follow the commend to edit :)
 //
   $email = 'contato@maximumtech.com.br'; // Your email address
-  $name = 'Diego Masin'; // Your name
+  $name = 'Srº Diego Masin'; // Your name
   $subject = 'Formulário de Contato da Maximum Tech'; // Subject line
   $body = '
   <html>
@@ -50,6 +50,16 @@
       $mail = new PHPMailer(true);
       // UTF-8
       $mail->CharSet = 'UTF-8';
+
+      // CUSTOM
+      $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+      $mail->isSMTP();                                      // Set mailer to use SMTP
+      $mail->Host = 'smtp.zoho.com';  // Specify main and backup SMTP servers
+      $mail->SMTPAuth = true;                               // Enable SMTP authentication
+      $mail->Username = 'contato@maximumtech.com.br';                 // SMTP username
+      $mail->Password = 'trizayferetrigan';                           // SMTP password
+      $mail->Port = 465;                                    // TCP port to connect to
+
       // set who the message is to be sent from
       $mail->setFrom($form_email, $form_name);
       // set an alternative reply-to address
