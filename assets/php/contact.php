@@ -51,6 +51,7 @@
     try {
       // create a new PHPMailer instance
       $mail = new PHPMailer(true);
+      $mail->SMTPDebug = 1;
       // UTF-8
       $mail->CharSet = 'UTF-8';
       // set who the message is to be sent from
