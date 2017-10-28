@@ -1,7 +1,6 @@
 <?php
 
-  require 'vendor/phpmailer/PHPMailerAutoload.php';
-  require 'vendor/phpmailer/smtp.php';
+  require_once ('vendor/phpmailer/PHPMailerAutoload.php');
 
 //
 // config start
