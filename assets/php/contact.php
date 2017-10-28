@@ -10,9 +10,6 @@
   $email = 'contato@maximumtech.com.br'; // Your email address
   $name = 'Maximum Tech'; // Your name
   $subject = 'Mensagem de Contato do Site'; // Subject line
-  $form_email = $_POST['email'];
-  $form_name = $_POST['name'];
-  $body = $_POST['message'];
   $body = '
   <html>
     <head>
@@ -51,7 +48,7 @@
     try {
       // create a new PHPMailer instance
       $mail = new PHPMailer(true);
-      $mail->SMTPDebug = 2;
+      $mail->SMTPDebug = 4;
       $mail->isSMTP();
       $mail->Host = 'smtp.zoho.com';
       $mail->SMTPAuth = true;
@@ -62,9 +59,7 @@
       // UTF-8
       $mail->CharSet = 'UTF-8';
       // set who the message is to be sent from
-      $mail->setFrom($form_email, $form_name);
-      // set an alternative reply-to address
-      // $mail->addReplyTo($form_email, $form_name);
+      $mail->setFrom($email, $name);
       // set who the message is to be sent to
       $mail->addAddress($email, $name);
       // set the subject line
