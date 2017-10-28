@@ -1,5 +1,5 @@
 //
-// classes file
+// config file
 // --------------------------------------------------
 //
 // customize the template function via this file.
@@ -21,13 +21,13 @@ var _site_bg_border =                             false; // [true, false] - site
 // countdown
 // --------------------------------------------------
 var _countdown =                                  true; // [true, false] - countdown enable / disable
-var _countdown_date =                             [2017, 12, 1]; // [2017, 12, 1] mean 2017[year] - 12[month] - 01[day]
+var _countdown_date =                             [2016, 12, 1]; // [2016, 12, 1] mean 2016[year] - 12[month] - 01[day]
 var _countdown_utc =                              false; // [true, false] - utc time
 
 //
 // background effect (cloud / star)
 // --------------------------------------------------
-var _site_bg_effect =                             0; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
+var _site_bg_effect =                             2; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
 var _side_bg_effect_parallax =                    false; // [true, false] - enable parallax effect on above effect, its force disable on mobile, and not work with outdated browser
 
 // if _bg_effect == 1 (cloud)
