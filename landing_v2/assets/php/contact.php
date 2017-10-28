@@ -48,33 +48,27 @@
     try {
       // create a new PHPMailer instance
       $mail = new PHPMailer(true);
-      // UTF-8
-      $mail->CharSet = 'UTF-8';
 
-      // CUSTOM
+      //Server settings
       $mail->SMTPDebug = 2;                                 // Enable verbose debug output
       $mail->isSMTP();                                      // Set mailer to use SMTP
       $mail->Host = 'smtp.zoho.com';  // Specify main and backup SMTP servers
       $mail->SMTPAuth = true;                               // Enable SMTP authentication
       $mail->Username = 'contato@maximumtech.com.br';                 // SMTP username
       $mail->Password = 'trizayferetrigan';                           // SMTP password
+      $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
       $mail->Port = 465;                                    // TCP port to connect to
 
-      // set who the message is to be sent from
-      $mail->setFrom($form_email, $form_name);
-      // set an alternative reply-to address
-      $mail->addReplyTo($form_email, $form_name);
-      // set who the message is to be sent to
-      $mail->addAddress($email, $name);
-      // set the subject line
-      $mail->Subject = $subject;
-      // read an HTML message body from an external file, convert referenced images to embedded,
-      //and convert the HTML into a basic plain-text alternative body
-      $mail->msgHTML($body);
-      // replace the plain text body with one created manually
-      $mail->AltBody = 'This is a plain-text message body';
-      // send the message
-      // note that we don't need check the response from this because it will throw an exception if it has trouble
+      //Recipients
+      $mail->setFrom('contato@maximumtech.com.br', 'Mailer');
+      $mail->addAddress('diegoifce@gmail.com', 'Joe User');     // Add a recipient
+
+      //Content
+      $mail->isHTML(true);                                  // Set email format to HTML
+      $mail->Subject = 'Here is the subject';
+      $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+      $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
       $mail->send();
       throw new Exception('Obrigado! A mensagem foi enviada.', 0); // success message
     } catch (phpmailerException $e) {

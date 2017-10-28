@@ -370,7 +370,7 @@ var $ = jQuery.noConflict();
             }
           },
           error: function(data) {
-            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>An error occurred. Please try again later.').show();
+            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>Ocorreu um Erro. Por favor tente novamente mais tarde.').show();
           },
         });
       },
