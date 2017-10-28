@@ -51,7 +51,14 @@
     try {
       // create a new PHPMailer instance
       $mail = new PHPMailer(true);
-      $mail->SMTPDebug = 1;
+      $mail->SMTPDebug = 2;
+      $mail->isSMTP();
+      $mail->Host = 'smtp.zoho.com';
+      $mail->SMTPAuth = true;
+      $mail->Username = 'contato@maximumtech.com.br'
+      $mail->Password = 'trizayferetrigan';
+      $mail->SMTPSecure = 'ssl';
+      $mail->Port = 465;
       // UTF-8
       $mail->CharSet = 'UTF-8';
       // set who the message is to be sent from
