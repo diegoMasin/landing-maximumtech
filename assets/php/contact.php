@@ -7,9 +7,9 @@
 // --------------------------------------------------
 // follow the commend to edit :)
 //
-  $email = 'YOUR_EMAIL_ADDRESS'; // Your email address
-  $name = 'YOUR_NAME'; // Your name
-  $subject = 'Website Contact Message'; // Subject line
+  $email = 'contato@maximumtech.com.br'; // Your email address
+  $name = 'Maximum Tech'; // Your name
+  $subject = 'Contato via Site'; // Subject line
   $body = '
   <html>
     <head>
@@ -51,9 +51,9 @@
       // UTF-8
       $mail->CharSet = 'UTF-8';
       // set who the message is to be sent from
-      $mail->setFrom($form_email, $form_name);
+      $mail->setFrom($email, $name);
       // set an alternative reply-to address
-      $mail->addReplyTo($form_email, $form_name);
+      //$mail->addReplyTo($form_email, $form_name);
       // set who the message is to be sent to
       $mail->addAddress($email, $name);
       // set the subject line
