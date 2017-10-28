@@ -103,6 +103,3 @@ ENV/
 .idea/
 .idea
 .idea/*
-
-#protegendo configuração do banco
-*.ini
