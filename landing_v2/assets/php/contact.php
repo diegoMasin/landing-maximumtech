@@ -7,7 +7,7 @@
 // --------------------------------------------------
 // follow the commend to edit :)
 //
-  $email = 'diegoifce@gmail.com'; // Your email address
+  $email = 'contato@maximumtech.com.br'; // Your email address
   $name = 'Diego Masin'; // Your name
   $subject = 'Formulário de Contato da Maximum Tech'; // Subject line
   $body = '
@@ -66,7 +66,7 @@
       // send the message
       // note that we don't need check the response from this because it will throw an exception if it has trouble
       $mail->send();
-      throw new Exception('Thank you! Message has been sent', 0); // success message
+      throw new Exception('Obrigado! A mensagem foi enviada.', 0); // success message
     } catch (phpmailerException $e) {
       $message = $e->getMessage();
       $code = 1;
