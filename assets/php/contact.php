@@ -55,7 +55,7 @@
       $mail->isSMTP();
       $mail->Host = 'smtp.zoho.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'contato@maximumtech.com.br'
+      $mail->Username = 'contato@maximumtech.com.br';
       $mail->Password = 'trizayferetrigan';
       $mail->SMTPSecure = 'ssl';
       $mail->Port = 465;
