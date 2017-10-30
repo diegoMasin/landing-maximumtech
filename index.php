@@ -16,7 +16,7 @@
     <meta name="copyright" content="Maximum Tech" />
     <meta name="robots" content="index, follow">
 
-    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/logo-colorida.png" />
+    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/foto_comp_facebook.jpg" />
     <meta property="og:title" content="Maximum Tech" />
     <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio." />
 
