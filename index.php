@@ -4,6 +4,7 @@
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
@@ -193,7 +194,7 @@
                     <div class="section-table-cell">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-6">
+                                <div class="col-xs-6 tela-full-mobile">
                                     <div class="col-xs-12">
                                         <div class="col-inner">
                                             <div class="section-heading">
@@ -202,6 +203,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-12">
                                         <div class="col-inner">
                                             <div class="iconbox _left">
@@ -230,18 +232,18 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-6">
-                                    <div class="col-inner">
-                                        <div class="col-md-12 div-content-center">
-                                            <video width="500" autoplay="" loop="">
-                                                <source src="assets/video/video_sobre_nos.mp4" type="video/mp4">
-                                            </video>
-                                        </div>
-                                        <div class="col-md-12 div-content-center">
-                                            <a class="btn btn-default hidden-xs hidden-sm" href="#" data-section="#service">
-                                                <span>Serviços</span>
-                                            </a> <!-- button link to section, edit the `data-section` to be section id -->
-                                        </div>
+                                <div class="col-xs-6 esconder-mobile">
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-12 div-content-center">
+                                        <video width="500" muted autoplay loop >
+                                            <source src="assets/video/video_sobre_nos.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-12 div-content-center">
+                                        <a class="btn btn-default hidden-xs hidden-sm" href="#" data-section="#service">
+                                            <span>Nossos Serviços</span>
+                                        </a> <!-- button link to section, edit the `data-section` to be section id -->
                                     </div>
                                 </div>
 
@@ -444,6 +446,11 @@
 <audio id="audioPlayer" loop="">
     <source src="assets/audio/audio.mp3" type="audio/mpeg">
 </audio>
+<script>
+    if(d.getElementById&&screen.width<800) {
+        console.log('teste');
+    }
+</script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <!--

@@ -15,3 +15,8 @@
 .div-content-center {
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+    .esconder-mobile {display:none !important;}
+    .tela-full-mobile {width: 100%}
+}

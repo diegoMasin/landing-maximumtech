@@ -65,7 +65,7 @@ var _bg_style_desktop =                           9;
                                                     // 12 = youtube video (mp3 audio)
 
 // for mobile
-var _bg_style_mobile =                            1;
+var _bg_style_mobile =                            9;
                                                     // 0 = flat color
                                                     // 1 = image
                                                     // 2 = image (mp3 audio)
