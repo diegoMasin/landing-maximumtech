@@ -65,6 +65,9 @@
                                 <li class="primary-menu-item is-active" data-section="#home">
                                     <a href="#" data-hover="Home"><span>Home</span></a> <!-- set `data-hover` same as the link text -->
                                 </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                                <li class="primary-menu-item" data-section="#about">
+                                    <a href="#" data-hover="Quem somos"><span>Quem somos</span></a>
+                                </li>
                                 <li class="primary-menu-item" data-section="#service">
                                     <a href="#" data-hover="Serviços"><span>Serviços</span></a>
                                 </li>
@@ -174,6 +177,69 @@
                                         </form> <!-- #subscribeForm -->
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about" class="section">
+                <div class="section-table">
+                    <div class="section-table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="col-xs-12">
+                                        <div class="col-inner">
+                                            <div class="section-heading">
+                                                <h2 class="section-title">Quem somos?</h2>
+                                                <p class="section-subtitle">Sistemas • Sites • Gestores de Conteúdo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="col-inner">
+                                            <div class="iconbox _left">
+                                                <div class="iconbox-icon">
+                                                    <i class="icon-strategy"></i>
+                                                </div>
+                                                <div class="iconbox-heading">
+                                                    <h4>Nossa Estratégia</h4>
+                                                </div>
+                                                <div class="iconbox-content">
+                                                    <p>Desenvolver soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.</p>
+                                                </div>
+                                            </div> <!-- .iconbox -->
+
+                                            <div class="iconbox _left">
+                                                <div class="iconbox-icon">
+                                                    <i class="icon-tools"></i>
+                                                </div>
+                                                <div class="iconbox-heading">
+                                                    <h4>Missão e Meta</h4>
+                                                </div>
+                                                <div class="iconbox-content">
+                                                    <p>Conquistar nossos clientes com inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.</p>
+                                                </div>
+                                            </div> <!-- .iconbox -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="col-inner">
+                                        <div class="col-md-12 div-content-center">
+                                            <video width="500" autoplay="" loop="">
+                                                <source src="assets/video/video_sobre_nos.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div class="col-md-12 div-content-center">
+                                            <a class="btn btn-default hidden-xs hidden-sm" href="#" data-section="#service">
+                                                <span>Serviços</span>
+                                            </a> <!-- button link to section, edit the `data-section` to be section id -->
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
