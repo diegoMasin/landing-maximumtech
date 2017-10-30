@@ -16,7 +16,7 @@
     <meta name="copyright" content="Maximum Tech" />
     <meta name="robots" content="index, follow">
 
-    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/logo-colorida.png" />
+    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/foto_comp_facebook.jpg" />
     <meta property="og:title" content="Maximum Tech" />
     <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio." />
 
@@ -25,7 +25,7 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
     <link rel='stylesheet' href='assets/css/vendor.css'>
-    <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+    <link rel='stylesheet' href='assets/css/theme_dark.css'>
     <link rel='stylesheet' href='assets/css/custom.css'>
     <!--[if lte IE 9]><!-->
     <script src='assets/js/vendor/html5shiv.min.js'></script>
