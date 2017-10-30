@@ -14,8 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="copyright" content="Maximum Tech" />
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="The Rock" />
-    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/favicon.ico" />
+
+    <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/logo-colorida.png" />
+    <meta property="og:title" content="Maximum Tech" />
+    <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio." />
+
     <meta http-equiv="content-language" content="pt-br">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.ico">
