@@ -66,7 +66,7 @@
       // send the message
       // note that we don't need check the response from this because it will throw an exception if it has trouble
       $mail->send();
-      throw new Exception('Thank you! Message has been sent', 0); // success message
+      throw new Exception('Obrigado! Sua mensagem foi enviada com Sucesso.', 0); // success message
     } catch (phpmailerException $e) {
       $message = $e->getMessage();
       $code = 1;
