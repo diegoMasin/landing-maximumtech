@@ -11,3 +11,7 @@
   background: url("../img/site-background-image.jpg") no-repeat;
   background-size: 100% 100%;
 }
+
+.div-content-center {
+  text-align: center;
+}
