@@ -168,7 +168,7 @@
                                             </div>
                                         </div> <!-- .countdown -->
                                         <p>
-                                            Trabalhamos com soluções tecnológicas em sistemas para o seu negócio. Entre em contato para mais informações.
+                                            Trabalhamos com soluções tecnológicas em sistemas para o seu pequeno negócio. Entre em contato para mais informações.
                                             <br>
                                             Se inscreva abaixo para receber nossas novidades e informações atualizadas.
                                         </p>
