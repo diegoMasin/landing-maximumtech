@@ -8,7 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
-    <meta name="description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio.">
+    <meta name="description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio. 
+                                      Desenvolvemos soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.">
     <meta name="keywords" content="desenvolvimento web, sistemas, layout responsive, ágil, metodologia, software, site,
         gerenciado de conteúdo, fortaleza ce, python">
     <meta name="author" content="maximumtech">
