@@ -9,9 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
     <meta name="description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio. 
-                                      Desenvolvemos soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.">
-    <meta name="keywords" content="desenvolvimento web, sistemas, layout responsive, ágil, metodologia, software, site,
-        gerenciado de conteúdo, fortaleza ce, python">
+        Desenvolvemos soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.">
+    <meta name="keywords" content="desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
+        gerenciador de conteúdo, fortaleza ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
+        computadores, landing page, home page, web page, sistema web, sistemas web">
     <meta name="author" content="maximumtech">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="copyright" content="Maximum Tech" />
@@ -454,7 +455,7 @@
 </script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<!--
+
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -463,7 +464,7 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
--->
+
 
 </body>
 </html>
