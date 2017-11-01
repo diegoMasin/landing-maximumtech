@@ -20,3 +20,7 @@
     .esconder-mobile {display:none !important;}
     .tela-full-mobile {width: 100%}
 }
+
+@media only screen and (min-width: 500px) {
+    .esconder-pc {display:none !important;}
+}
