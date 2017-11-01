@@ -370,7 +370,7 @@ var $ = jQuery.noConflict();
             }
           },
           error: function(data) {
-            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>An error occurred. Please try again later.').show();
+            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>Ocorreu um erro. Por favor, tente mais tarde.').show();
           },
         });
       },
@@ -378,8 +378,8 @@ var $ = jQuery.noConflict();
         var errors = validator.numberOfInvalids();
         if (errors) {
           var message = errors == 1 ?
-          '<i class="fa fa-warning"></i>You missed 1 field. It has been highlighted.' :
-          '<i class="fa fa-warning"></i>You missed ' + errors + ' fields. They have been highlighted.';
+          '<i class="fa fa-warning"></i>Faltou 1 campo. Foi destacado.' :
+          '<i class="fa fa-warning"></i>Faltaram ' + errors + ' campos. Foram destacados.';
           $formNotify.removeClass('valid error').addClass('error').html(message).show();
         }
       }
@@ -489,7 +489,7 @@ var $ = jQuery.noConflict();
             }
           },
           error: function(data) {
-            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>An error occurred. Please try again later.').show();
+            $formNotify.removeClass('valid').addClass('error').html('<i class="fa fa-warning"></i>Ocorreu um erro. Por favor, tente mais tarde.').show();
           },
         });
       },
@@ -497,8 +497,8 @@ var $ = jQuery.noConflict();
         var errors = validator.numberOfInvalids();
         if (errors) {
           var message = errors == 1 ?
-            '<i class="fa fa-warning"></i>Please enter a valid email address.' :
-            '<i class="fa fa-warning"></i>Please enter a valid email address.';
+            '<i class="fa fa-warning"></i>Por favor, digite um email válido.' :
+            '<i class="fa fa-warning"></i>Por favor, digite um email válido.';
           $formNotify.removeClass('valid').addClass('error').html(message).show();
         }
       }

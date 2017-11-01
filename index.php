@@ -352,7 +352,7 @@
                                             </div>
                                             <div class="iconbox-content">
                                                 <p>
-                                                    (085) 98725 -7171
+                                                    (85) 9 8725-7171
                                                 </p>
                                             </div>
                                         </div> <!-- .iconbox -->

@@ -20,3 +20,8 @@
     .esconder-mobile {display:none !important;}
     .tela-full-mobile {width: 100%}
 }
+
+div[id="about"] video {
+	border: 2px solid #fff;
+	border-radius: 0 20px;
+}
