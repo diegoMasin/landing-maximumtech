@@ -676,7 +676,7 @@ var $ = jQuery.noConflict();
 
   function fn_siteBgAudio() {
     if (_bg_style_mobile == 2 || _bg_style_mobile == 4 || _bg_style_mobile == 6 || _bg_style_desktop == 2 || _bg_style_desktop == 4 || _bg_style_desktop == 6 || _bg_style_desktop == 9 || _bg_style_desktop == 12) {
-      $body.append('<audio id="audioPlayer" loop>' +
+      $body.append('<audio id="audioPlayer">' +
                    '<source src="assets/audio/audio.mp3" type="audio/mpeg">' +
                    '</audio>');
     }

@@ -445,14 +445,6 @@
 <script src='assets/js/vendor/plugin.js'></script>
 <script src='assets/js/variable.js'></script>
 <script src='assets/js/main.js'></script>
-<audio id="audioPlayer" loop="">
-    <source src="assets/audio/audio.mp3" type="audio/mpeg">
-</audio>
-<script>
-    if(d.getElementById&&screen.width<800) {
-        console.log('teste');
-    }
-</script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
