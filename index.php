@@ -135,7 +135,7 @@
                                                         <span>Twitter</span>
                                                     </a>
                                                 </li>
-                                                <li class="social-item">
+                                                <li class="social-item esconder-mobile">
                                                     <a href="whatsapp://send?text=Acesse nosso site: http://www.maximumtech.com.br">
                                                         <i class="fa fa-whatsapp"></i>
                                                         <span>Whatsapp</span>
@@ -238,7 +238,7 @@
                                     <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-12 div-content-center">
                                         <video width="500" muted autoplay loop >
-                                            <source src="assets/video/video_sobre_nos.mp4" type="video/mp4">
+                                            <source src="assets/video/primeiro-video-marketing-maximum-tech.mp4" type="video/mp4">
                                         </video>
                                     </div>
                                     <div class="col-md-12">&nbsp;</div>
