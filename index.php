@@ -135,7 +135,7 @@
                                                         <span>Twitter</span>
                                                     </a>
                                                 </li>
-                                                <li class="social-item esconder-mobile">
+                                                <li class="social-item esconder-pc">
                                                     <a href="whatsapp://send?text=Acesse nosso site: http://www.maximumtech.com.br">
                                                         <i class="fa fa-whatsapp"></i>
                                                         <span>Whatsapp</span>

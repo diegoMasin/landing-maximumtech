@@ -25,3 +25,6 @@ div[id="about"] video {
 	border: 2px solid #fff;
 	border-radius: 0 20px;
 }
+@media only screen and (min-width: 500px) {
+    .esconder-pc {display:none !important;}
+}
