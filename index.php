@@ -170,7 +170,7 @@
                                         <p>
                                             Trabalhamos com soluções tecnológicas em sistemas para o seu pequeno negócio. Entre em contato para mais informações.
                                             <br>
-                                            Se inscreva abaixo para receber nossas novidades e informações atualizadas.
+                                            Se inscreva abaixo para receber nossas novidades e outras informações.
                                         </p>
                                         <form id="subscribeForm">
                                             <div class="subscribe-wrap">
