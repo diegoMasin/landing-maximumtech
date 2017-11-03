@@ -217,8 +217,7 @@
                                                 </div>
                                                 <div class="iconbox-content">
                                                     <p>
-                                                        Estamos desenvolvendo sistemas web de uso pessoal e comercial que em breve estarão disponibilizados aqui no site. <br>
-                                                        Em paralelo, estamos abertos para a análise e viabilidade de soluções e serviços para os clientes que necessitem.
+                                                        Desenvolver de forma ágil com foco na qualidade e transparência, honrando os prazos e a necessidade de nossos clientes.
                                                     </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
@@ -232,7 +231,7 @@
                                                 </div>
                                                 <div class="iconbox-content">
                                                     <p>
-                                                        Desenvolver soluções em sites ou sistemas Web com atendimento de qualidade suprindo as expectativas do cliente.
+                                                        Desenvolver soluções em Sites e Sistemas Web com atendimento de qualidade, suprindo as expectativas do cliente.
                                                         Inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.
                                                     </p>
                                                 </div>
