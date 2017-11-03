@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
-    <meta name="description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio. 
-        Desenvolvemos soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.">
-    <meta name="keywords" content="desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
-        gerenciador de conteúdo, fortaleza ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
-        computadores, landing page, home page, web page, sistema web, sistemas web">
+    <meta name="description" content="Trabalhamos com soluções no desenvolvimento de sites, gerenciadores de conteúdo e sistemas web.
+        Estamos desenvolvendo algumas plataformas web que em breve serão disponibilizadas em nosso site. Aguarde mais informações.">
+    <meta name="keywords" content="empresa, desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
+        gerenciador de conteúdo, fortaleza, ceará, ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
+        computadores, landing page, home page, web page, sistema web, sistemas web, wordpress">
     <meta name="author" content="maximumtech">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="copyright" content="Maximum Tech" />
@@ -20,7 +20,7 @@
 
     <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/foto_comp_facebook.jpg" />
     <meta property="og:title" content="Maximum Tech" />
-    <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio." />
+    <meta property="og:description" content="Trabalhamos com soluções no desenvolvimento de sites, gerenciadores de conteúdo e sistemas web." />
 
     <meta http-equiv="content-language" content="pt-br">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -168,9 +168,9 @@
                                             </div>
                                         </div> <!-- .countdown -->
                                         <p>
-                                            Trabalhamos com soluções tecnológicas em sistemas para o seu pequeno negócio. Entre em contato para mais informações.
+                                            Trabalhamos com soluções no desenvolvimento de sites e sistemas web. Visualise nossos Serviços ou entre em contato para mais detalhes.
                                             <br>
-                                            Se inscreva abaixo para receber nossas novidades e outras informações.
+                                            Se inscreva abaixo para receber novidades e outras informações.
                                         </p>
                                         <form id="subscribeForm">
                                             <div class="subscribe-wrap">
@@ -201,7 +201,7 @@
                                         <div class="col-inner">
                                             <div class="section-heading">
                                                 <h2 class="section-title">Quem somos?</h2>
-                                                <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                                <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                             </div>
                                         </div>
                                     </div>
@@ -216,7 +216,10 @@
                                                     <h4>Nossa Estratégia</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Desenvolver soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.</p>
+                                                    <p>
+                                                        Criar sistemas web de uso pessoal e comercial que em breve estarão sendo disponibilizados aqui no site. <br>
+                                                        Manter também como serviços o desenvolvimento, análise e viabilidade de soluções para os clientes que as necessitem.
+                                                    </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
 
@@ -228,13 +231,24 @@
                                                     <h4>Missão e Meta</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Conquistar nossos clientes com inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.</p>
+                                                    <p>
+                                                        Desenvolver de forma ágil com foco na qualidade e transparência, honrando os prazos e a necessidade de nossos clientes.
+                                                        Inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.
+                                                    </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-6 esconder-mobile">
+                                <div class="col-xs-12">
+                                        <div class="col-inner">
+                                            <div class="section-heading">
+                                                <h2 class="section-title">&nbsp;</h2>
+                                                <p class="section-subtitle">&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-12 div-content-center">
                                         <video width="500" muted autoplay loop >
@@ -264,7 +278,7 @@
                                     <div class="col-inner">
                                         <div class="section-heading">
                                             <h2 class="section-title">O que fazemos?</h2>
-                                            <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                            <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                         </div>
                                     </div>
                                 </div>
@@ -279,7 +293,7 @@
                                                     <h4>Fábrica de Software</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Especializados em desenvolvimento e implementação de novos sistemas para seu negócio.</p>
+                                                    <p>Especializados em desenvolvimento e implementação de sites, gerenciadores de conteúdo e sistemas web.</p>
                                                 </div>
                                             </div> <!-- .iconbox -->
 
@@ -337,12 +351,15 @@
                                     <div class="col-inner">
                                         <div class="section-heading">
                                             <h2 class="section-title">Entre em Contato</h2>
-                                            <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                            <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-md-5 m-t-30-sm-max">
                                     <div class="col-inner">
+                                        <div class="iconbox">
+                                            Está com problemas ou precisa de soluções? Fale conosco! Vamos análisar a viabilidade de uma soluções para você.
+                                        </div>
                                         <div class="iconbox _left">
                                             <div class="iconbox-icon">
                                                 <i class="icon-tablet"></i>
