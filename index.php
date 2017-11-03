@@ -216,7 +216,10 @@
                                                     <h4>Nossa Estratégia</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Desenvolver soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.</p>
+                                                    <p>
+                                                        Estamos desenvolvendo sistemas web que em breve estarão disponibilizados na internet. <br>
+                                                        Em paralelo, estamos abertos para a análise dos clientes que necessitam de soluções.
+                                                    </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
 
@@ -228,7 +231,10 @@
                                                     <h4>Missão e Meta</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Conquistar nossos clientes com inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.</p>
+                                                    <p>
+                                                        Desenvolver soluções em sites ou sistemas Web com atendimento de qualidade suprindo as expectativas do cliente.
+                                                        Inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.
+                                                    </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
                                         </div>
