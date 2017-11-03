@@ -241,6 +241,14 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6 esconder-mobile">
+                                <div class="col-xs-12">
+                                        <div class="col-inner">
+                                            <div class="section-heading">
+                                                <h2 class="section-title">&nbsp;</h2>
+                                                <p class="section-subtitle">&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-12 div-content-center">
                                         <video width="500" muted autoplay loop >
