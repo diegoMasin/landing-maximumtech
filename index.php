@@ -168,9 +168,9 @@
                                             </div>
                                         </div> <!-- .countdown -->
                                         <p>
-                                            Trabalhamos com soluções tecnológicas em sites e sistemas web. Visualise em Serviços ou entre em contato para mais informações.
+                                            Trabalhamos com soluções tecnológicas em sites e sistemas web. Visualise nossos Serviços ou entre em contato para mais detalhes.
                                             <br>
-                                            Se inscreva abaixo para receber nossas novidades e outras informações.
+                                            Se inscreva abaixo para receber novidades e outras informações.
                                         </p>
                                         <form id="subscribeForm">
                                             <div class="subscribe-wrap">
