@@ -285,7 +285,7 @@
                                                     <h4>Fábrica de Software</h4>
                                                 </div>
                                                 <div class="iconbox-content">
-                                                    <p>Especializados em desenvolvimento e implementação de novos sistemas para seu negócio.</p>
+                                                    <p>Especializados em desenvolvimento e implementação de sites, gerenciadores de conteúdo e sistemas web.</p>
                                                 </div>
                                             </div> <!-- .iconbox -->
 
