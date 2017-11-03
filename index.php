@@ -217,8 +217,8 @@
                                                 </div>
                                                 <div class="iconbox-content">
                                                     <p>
-                                                        Estamos desenvolvendo sistemas web que em breve estarão disponibilizados na internet. <br>
-                                                        Em paralelo, estamos abertos para a análise dos clientes que necessitam de soluções.
+                                                        Estamos desenvolvendo sistemas web de uso pessoal e comercial que em breve estarão disponibilizados aqui no site. <br>
+                                                        Em paralelo, estamos abertos para a análise e viabilidade de soluções e serviços para os clientes que necessitem.
                                                     </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
