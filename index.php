@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
     <meta name="description" content="Trabalhamos com soluções no desenvolvimento de sites, gerenciadores de conteúdo e sistemas web.
-        Estamos desenvolvendo algumas plataformas web que em breve estarão disponibilizadas em nosso site. Aguarde mais informações.">
+        Estamos desenvolvendo algumas plataformas web que em breve serão disponibilizadas em nosso site. Aguarde mais informações.">
     <meta name="keywords" content="empresa, desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
         gerenciador de conteúdo, fortaleza, ceará, ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
         computadores, landing page, home page, web page, sistema web, sistemas web, wordpress">
@@ -358,7 +358,7 @@
                                 <div class="col-xs-12 col-md-5 m-t-30-sm-max">
                                     <div class="col-inner">
                                         <div class="iconbox">
-                                            Está com problemas ou precisa de solução? Fale conosco! Vamos análisar a viabilidade de uma soluções para você.
+                                            Está com problemas ou precisa de soluções? Fale conosco! Vamos análisar a viabilidade de uma soluções para você.
                                         </div>
                                         <div class="iconbox _left">
                                             <div class="iconbox-icon">
