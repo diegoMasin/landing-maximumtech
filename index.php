@@ -201,7 +201,7 @@
                                         <div class="col-inner">
                                             <div class="section-heading">
                                                 <h2 class="section-title">Quem somos?</h2>
-                                                <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                                <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                             </div>
                                         </div>
                                     </div>
@@ -270,7 +270,7 @@
                                     <div class="col-inner">
                                         <div class="section-heading">
                                             <h2 class="section-title">O que fazemos?</h2>
-                                            <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                            <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +343,7 @@
                                     <div class="col-inner">
                                         <div class="section-heading">
                                             <h2 class="section-title">Entre em Contato</h2>
-                                            <p class="section-subtitle">Sistemas • Sites • Gerenciadores de Conteúdo</p>
+                                            <p class="section-subtitle">Sistemas Web • Sites • Gerenciadores de Conteúdo</p>
                                         </div>
                                     </div>
                                 </div>
