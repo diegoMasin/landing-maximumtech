@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
-    <meta name="description" content="Trabalhamos com soluções tecnológicas em sites, gerenciadores de conteúdo na internet e sistemas web.
-        Estamos desenvolvendo algumas plataformas web que em breve estarão disponibilizadas na internet. Aguarde mais informações.">
+    <meta name="description" content="Trabalhamos com soluções no desenvolvimento de sites, gerenciadores de conteúdo e sistemas web.
+        Estamos desenvolvendo algumas plataformas web que em breve estarão disponibilizadas em nosso site. Aguarde mais informações.">
     <meta name="keywords" content="empresa, desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
         gerenciador de conteúdo, fortaleza, ceará, ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
         computadores, landing page, home page, web page, sistema web, sistemas web, wordpress">
@@ -20,7 +20,7 @@
 
     <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/foto_comp_facebook.jpg" />
     <meta property="og:title" content="Maximum Tech" />
-    <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sites, gerenciadores de conteúdo na internet e sistemas web." />
+    <meta property="og:description" content="Trabalhamos com soluções no desenvolvimento de sites, gerenciadores de conteúdo e sistemas web." />
 
     <meta http-equiv="content-language" content="pt-br">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -168,7 +168,7 @@
                                             </div>
                                         </div> <!-- .countdown -->
                                         <p>
-                                            Trabalhamos com soluções tecnológicas em sites e sistemas web. Visualise nossos Serviços ou entre em contato para mais detalhes.
+                                            Trabalhamos com soluções no desenvolvimento de sites e sistemas web. Visualise nossos Serviços ou entre em contato para mais detalhes.
                                             <br>
                                             Se inscreva abaixo para receber novidades e outras informações.
                                         </p>
@@ -217,7 +217,8 @@
                                                 </div>
                                                 <div class="iconbox-content">
                                                     <p>
-                                                        Desenvolver de forma ágil com foco na qualidade e transparência, honrando os prazos e a necessidade de nossos clientes.
+                                                        Criar sistemas web de uso pessoal e comercial que em breve estarão sendo disponibilizados aqui no site. <br>
+                                                        Manter também como serviços o desenvolvimento, análise e viabilidade de soluções para os clientes que as necessitem.
                                                     </p>
                                                 </div>
                                             </div> <!-- .iconbox -->
@@ -231,7 +232,7 @@
                                                 </div>
                                                 <div class="iconbox-content">
                                                     <p>
-                                                        Desenvolver soluções em Sites e Sistemas Web com atendimento de qualidade, suprindo as expectativas do cliente.
+                                                        Desenvolver de forma ágil com foco na qualidade e transparência, honrando os prazos e a necessidade de nossos clientes.
                                                         Inovação e agilidade, são os preceitos que alicerçam o nosso trabalho.
                                                     </p>
                                                 </div>
