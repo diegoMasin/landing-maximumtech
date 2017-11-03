@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maximum Tech</title>
-    <meta name="description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio. 
-        Desenvolvemos soluções em sistemas para seu pequeno negócio e atendendo com qualidade as expectativas dos clientes.">
-    <meta name="keywords" content="desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
-        gerenciador de conteúdo, fortaleza ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
-        computadores, landing page, home page, web page, sistema web, sistemas web">
+    <meta name="description" content="Trabalhamos com soluções tecnológicas em sites, gerenciadores de conteúdo na internet e sistemas web.
+        Estamos desenvolvendo algumas plataformas web que em breve estarão disponibilizadas na internet. Aguarde mais informações.">
+    <meta name="keywords" content="empresa, desenvolvimento web, sistemas, sistema, layout responsive, ágil, metodologia, software, site,
+        gerenciador de conteúdo, fortaleza, ceará, ce, python, php, tecnologia, tech, maximum, projeto, internet, programar, computador,
+        computadores, landing page, home page, web page, sistema web, sistemas web, wordpress">
     <meta name="author" content="maximumtech">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="copyright" content="Maximum Tech" />
@@ -20,7 +20,7 @@
 
     <meta property="og:image" content="http://www.maximumtech.com.br/assets/img/foto_comp_facebook.jpg" />
     <meta property="og:title" content="Maximum Tech" />
-    <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sistemas para o seu negócio." />
+    <meta property="og:description" content="Trabalhamos com soluções tecnológicas em sites, gerenciadores de conteúdo na internet e sistemas web." />
 
     <meta http-equiv="content-language" content="pt-br">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
